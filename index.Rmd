@@ -1,0 +1,31 @@
+---
+title       : Steve's Amazing Slide Presentation
+subtitle    : February 4, 2015
+author      : Steve Barkin
+logo        : saama_logo1.png
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## This is my amazing slide #1 with compelling findings.
+
+```{r}
+hist(cars$speed)
+```
+
+--- .class #id 
+
+## This is slide #2
+
+```{r}
+plot(cars$speed, cars$dist)
+```
+
+
+
+
